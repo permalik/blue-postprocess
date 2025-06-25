@@ -1,5 +1,5 @@
 {
-  description = "blue-postprocess";
+  description = "yyyoink-postprocess";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/release-24.11";
@@ -13,7 +13,7 @@
   }:
     flake-utils.lib.eachDefaultSystem (
       system: let
-        pname = "blue-postprocess";
+        pname = "yyyoink-postprocess";
         version = "0.0.1";
         pkgs = import nixpkgs {
           inherit system;

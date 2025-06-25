@@ -22,5 +22,5 @@ WORKDIR /bin
 
 # Copy /nix/store
 COPY --from=builder /tmp/nix-store-closure /nix/store
-COPY --from=builder /tmp/build/result /blue-postprocess
-CMD ["/blue-postprocess/bin/blue-postprocess"]
+COPY --from=builder /tmp/build/result /yyyoink-postprocess
+CMD ["/yyyoink-postprocess/bin/yyyoink-postprocess"]

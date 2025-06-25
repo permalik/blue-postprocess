@@ -1,9 +1,9 @@
 # Prompt
-export PS1="\n\[\e[1;32m\][devshell](blue-postprocess) \w\n❯ \[\e[0m\]"
+export PS1="\n\[\e[1;32m\][devshell](yyyoink-postprocess) \w\n❯ \[\e[0m\]"
 
 # Aliases
-alias docker-build-dev="docker build -t blue-postprocess:dev ."
-alias docker-run-dev="docker run --rm blue-postprocess:dev"
+alias docker-build-dev="docker build -t yyyoink-postprocess:dev ."
+alias docker-run-dev="docker run --rm yyyoink-postprocess:dev"
 alias nv="nvim"
 alias glr="pretty_git_log"
 alias gs="git status"

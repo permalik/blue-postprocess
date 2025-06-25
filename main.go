@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("starting blue-postprocess...")
+	fmt.Println("starting yyyoink-postprocess...")
 }

@@ -1,3 +1,3 @@
-module github.com/permalik/blue-postprocess
+module github.com/permalik/yyyoink-postprocess
 
 go 1.23.6
